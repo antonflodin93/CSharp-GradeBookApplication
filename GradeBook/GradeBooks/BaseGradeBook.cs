@@ -79,7 +79,6 @@ namespace GradeBook.GradeBooks
 
         public static BaseGradeBook Load(string name)
         {
-            IsWeighted = isWeighted
 
             if (!File.Exists(name + ".gdbk"))
             {
